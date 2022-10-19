@@ -30,7 +30,7 @@ jobs:
           --configuration Release \
           --verbosity normal \
           --logger trx \
-          $Notes.Api.Test
+          $Notes_Api_Test
 
       - name: "Report Tests"
         uses: dorny/test-reporter@v1
