@@ -37,5 +37,5 @@ jobs:
         if: success() || failure()
         with:
           name: test-report
-          path: Notes_Api_Test/TestResults/*.txt
+          path: Notes.Api.Test/TestResults/*.trx
           reporter: dotnet-trx
